@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms and tags</title>
+</head>
+<body>
+    <!--This is about the use of form and tags in html-->
+    <h1>Student admission form</h1>
+    <form action="backend.php" >
+        <div>
+            <label for="student">Name:</label>           
+            <input type="text" name="Studentname" value="" id="student" placeholder="Enter your name">
+        </div>
+        <br>
+        <div>
+            Contact Number: <input type="number" name="contactnumber" id="" placeholder="Enter your contact number">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="emailID" id="">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="gender" id=""> Female <input type="radio" name="gender" id="">
+        </div>
+        <br>
+        <div>
+            Do you accept terms and conditions? <input type="checkbox" name="agreeability" id="">
+        </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="DOB" id="">
+        </div>
+        <br>
+        <div>
+            Upload your image <input type="file" name="imagefile" id="" accept="image/*">
+        </div>
+        <br>
+        <div>
+            Residential address:<br> <textarea name="Adrress" id="" col="30" row="10"></textarea>
+        </div>
+        <br>
+        <div>
+            Web Dev <select>
+                    <option value="">frontend</option>
+                    <option value="">backend</option>
+                    <option value="">Full Stack</option>
+                </select>
+        </div>
+        <br>
+        <div>
+           <input type="submit" value="Submit Form">
+           <input type="reset" value="Reset Form">
+        </div>
+    </form>   
+</body>
+</html>
